@@ -68,7 +68,7 @@ justify-content: center;
    color:rgb(35, 136, 131); 
 }
 #hero button {
-background-image:url(img/button.png) ;
+background-image: url(img/button.png) ;
 background-color: transparent;
 color:rgb(35, 136, 131); 
 padding:14px 80px 14px 65px;
@@ -78,10 +78,53 @@ cursor:pointer;
 font-weight: 700;
 font-size: 15px;
 }
+#feature{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 #feature .fe-box {
 width: 180px;
 text-align: center;
 padding: 25px 15px;
-box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.08);
-border:1px solid rgb(88, 228, 221);;
+box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.05);
+border: 1px solid rgb(88, 228, 221);
 }
+
+#feature .fe-box:hover{
+    box-shadow: 20px 20px 30px rgba(114, 187, 223, 0.05);
+
+}
+#feature .fe-box img{
+    width:100%;
+    margin-bottom: 10px;
+}
+
+#feature .fe-box h6{
+    display: inline-block;
+padding: 9px 8px 6px 8px;
+line-height: 1;
+border-radius: 4px;
+color:  rgba(14, 117, 110, 0.897);
+background-color: rgb(240, 193, 193);
+}
+#feature .fe-box:nth-child(2)  h6{
+
+background-color: rgb(189, 241, 184);
+}
+#feature .fe-box:nth-child(3)  h6{
+
+    background-color: rgb(245, 168, 235);
+    }
+    #feature .fe-box:nth-child(4)  h6{
+
+        background-color: rgb(79, 173, 211);
+        }
+        #feature .fe-box:nth-child(5)  h6{
+
+            background-color: rgba(206, 111, 235, 0.637);
+            }
+            #feature .fe-box:nth-child(6)  h6{
+
+                background-color: rgb(238, 174, 122);
+                }
