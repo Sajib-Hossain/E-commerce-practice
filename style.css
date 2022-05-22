@@ -128,4 +128,45 @@ background-color: rgb(189, 241, 184);
  #feature .fe-box:nth-child(6)  h6{
 
         background-color: rgba(240, 195, 159, 0.651);
-             }
+ }
+ #product1{
+     text-align: center;
+ }
+ #product1 .pro{
+     width:23%;
+     min-width: 250px;
+     padding: 10px 12px;
+     border: 1px solid rgb(6, 36, 48);
+     border-radius: 25px;
+     cursor:pointer;
+     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.205);
+     margin: 15px 0;
+     transition: 0.2s ease-in-out;
+
+ }
+ #product1 .pro:hover{
+
+    box-shadow: 10px 10px 5px rgba(6, 106, 124, 0.582);
+
+ }
+ #product1 .pro img {
+     width: 100%;
+     border-radius: 20px;
+}
+#product1 .pro .dress{
+    text-align: start;
+    padding: 10px 0;
+}
+#product1 .pro .dress span{
+    color:rgb(72, 61, 226);
+    font-size: 12px;
+}
+#product1 .pro .dress h5{
+    padding-top:7px;
+    color:black;
+    font-size: 14px;
+}
+#product1 .pro .dress i{
+    font-size:12px ;
+    color:rgb(255, 218, 96)
+}
